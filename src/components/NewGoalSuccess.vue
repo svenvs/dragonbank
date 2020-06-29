@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1>Dit is je nieuwe spaardoel!</h1>
-    <a href="/#/"><b-button>Naar overzicht</b-button></a>
+    <router-link to="/"><b-button>Naar overzicht</b-button></router-link>
   </div>
 </template>
 

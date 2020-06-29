@@ -33,7 +33,7 @@
         @click="form.currentlySaved = '14.00'"
       />
     </b-form>
-    <a href="/#/nieuw-spaardoel/hulp"><b-button>Verder</b-button></a>
+    <router-link to="/nieuw-spaardoel/hulp"><b-button>Verder</b-button></router-link>
   </div>
 </template>
 

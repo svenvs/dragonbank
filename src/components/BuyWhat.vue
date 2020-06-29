@@ -1,6 +1,6 @@
 <template>
   <div id="BuyWhat">
-    <a href="/#/">Terug naar overzicht</a>
+    <router-link to="/">Terug naar overzicht</router-link>
     <h1>Wat wil je kopen?</h1>
     <p>Laten we vooraan beginnen. Wat wil je eigenlijk kopen van je zakgeld? Vul het hieronder test
     in!</p>
@@ -9,7 +9,7 @@
                     required @click="form.goal = 'Lego Harry Potter kasteel'"
       ></b-form-input>
     </b-form>
-    <a href="/#/nieuw-spaardoel/hoe-duur"><b-button>Volgende</b-button></a>
+    <router-link to="/nieuw-spaardoel/hoe-duur"><b-button>Volgende</b-button></router-link>
   </div>
 </template>
 
