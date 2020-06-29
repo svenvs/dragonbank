@@ -2,7 +2,7 @@
   <div id="BuyWhat">
     <a href="/#/">Terug naar overzicht</a>
     <h1>Wat wil je kopen?</h1>
-    <p>Laten we vooraan beginnen. Wat wil je eigenlijk kopen van je zakgeld? Vul het hieronder
+    <p>Laten we vooraan beginnen. Wat wil je eigenlijk kopen van je zakgeld? Vul het hieronder test
     in!</p>
     <b-form class="py-4">
       <b-form-input id="goal" v-model="form.goal" type="text" placeholder="Mijn Spaardoel"
