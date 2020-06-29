@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.d89081eb53519dad62036a849330298a.js"
+  "/precache-manifest.ed16ad91f82ab1c5769b8b2ccbe3bb75.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "dragon-bank"});
