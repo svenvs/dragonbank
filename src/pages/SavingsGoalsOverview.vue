@@ -9,7 +9,7 @@
             Hieronder staan de spullen waar je voor an het sparen bent. Dit kunnen er zo veel zijn als je maar wilt!
             Klik op de knop hieronder om een nieuw spaardoel toe te voegen.
           </p>
-          <a href="/#/nieuw-spaardoel/wat"><b-button variant="outline-info" class="spaardoel-btn mt-3">Spaardoel toevoegen</b-button></a>
+          <router-link to="/nieuw-spaardoel/wat"><b-button variant="outline-info" class="spaardoel-btn mt-3">Spaardoel toevoegen</b-button></router-link>
         </b-col>
         <b-col md="3"></b-col>
       </b-row>
