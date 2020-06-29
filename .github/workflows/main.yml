@@ -35,3 +35,6 @@ jobs:
       with:
         # Commit message
         commit_message: autocommit for docs publish
+        
+    - name: Push changes
+      uses: actions-go/push@v1
